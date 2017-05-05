@@ -5,5 +5,6 @@ How to use OBS (S3 compatible) Service in different programming language:
 - Java
 
 and client tools: 
+- python-otcclient
 - s3cmd 
 - s3
