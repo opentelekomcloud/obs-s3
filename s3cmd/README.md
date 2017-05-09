@@ -1,4 +1,5 @@
 Installation
+==========
 
 Fedora: 
 yum install s3cmd
@@ -8,12 +9,16 @@ apt-get install s3cmd
 
 
 Usage: s3cmd [options] COMMAND [parameters]
+==========
 
 S3cmd is a tool for managing objects in Amazon S3 storage. It allows for
 making and removing "buckets" and uploading, downloading and removing
 "objects" from these buckets.
+-------------
 
 Options:
+-------------
+`````sh
   -h, --help            show this help message and exit
   --configure           Invoke interactive (re)configuration tool. Optionally
                         use as '--configure s3://some-bucket' to test access
@@ -243,8 +248,12 @@ Options:
   --content-type=CONTENT_TYPE
                         Provide a Content-Type for signed URLs, e.g.,
                         "video/mp4"
+`````
+
 
 Commands:
+==========
+`````sh
   Make bucket
       s3cmd mb s3://BUCKET
   Remove bucket
@@ -326,3 +335,4 @@ md5 checksum, unless overridden by options, see below)
       s3cmd cfmodify cf://DIST_ID
   Display CloudFront invalidation request(s) status
       s3cmd cfinvalinfo cf://DIST_ID[/INVAL_ID]
+`````
