@@ -1,5 +1,16 @@
-Installation
+S3cmd OBS - S3 tool 
 ==========
+
+S3cmd 
+-----------------------------------------------
+
+S3cmd is a tool for managing objects in Amazon S3 compatible storage (OTC OBS). It allows for
+making and removing "buckets" and uploading, downloading and removing
+"objects" from these buckets.
+
+
+Installation
+-------------
 
 Fedora: 
 yum install s3cmd
@@ -9,11 +20,6 @@ apt-get install s3cmd
 
 
 Usage: s3cmd [options] COMMAND [parameters]
-==========
-
-S3cmd is a tool for managing objects in Amazon S3 storage. It allows for
-making and removing "buckets" and uploading, downloading and removing
-"objects" from these buckets.
 -------------
 
 Options:
