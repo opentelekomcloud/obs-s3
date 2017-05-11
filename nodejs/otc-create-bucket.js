@@ -1,3 +1,4 @@
+# https://gist.github.com/skhatri/5539942
 var AWS = require('aws-sdk');
 
 var accessKeyId = process.env.S3_ACCESS_KEY_ID; 

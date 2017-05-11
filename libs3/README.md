@@ -1,4 +1,17 @@
+libs3 OBS - S3 tool 
+==========
+
+libs3 
+-----------------------------------------------
+
+libs3 is a tool for managing objects in Amazon S3 compatible storage (OTC OBS). It allows for
+making and removing "buckets" and uploading, managing cors, downloading and removing
+"objects" from these buckets.
+
+
+
 Installation
+-------------
 
 Fedora: 
 yum install libs3
@@ -7,9 +20,13 @@ Ubuntu:
 apt-get install libs3
 
 Usage: 
+-------------
+
 Usage: s3 [options] COMMAND [parameters]
 
 Environment:
+-------------
+
  S3_ACCESS_KEY_ID - must be set to S3 Access Key ID
  S3_SECRET_ACCESS_KEY - must be set to S3 Secret Access Key
  S3_COMMAND - may be set to s3 command to use, examples:
@@ -17,6 +34,9 @@ Environment:
 
 			  
 Commands: 
+-------------
+
+`````sh
 # Create the test bucket
 s3 create $TEST_BUCKET
 
